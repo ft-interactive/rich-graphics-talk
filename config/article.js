@@ -11,14 +11,13 @@ export default () => ({ // eslint-disable-line
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Politics and the English Language',
+  headline: 'Energy: Corridor of power',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'Fears are rising that Iran’s cornered leadership could block the world’s most critical oil choke point.',
 
   topic: {
-    name: 'Starter Kit',
+    name: 'Oil',
     url: '/foo',
   },
 
@@ -38,8 +37,8 @@ export default () => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Javier Blas', url: '/foo/bar' },
+    { name: 'Chris Campbell' },
   ],
 
   // Appears in the HTML <title>
